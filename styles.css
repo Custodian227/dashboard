@@ -64,6 +64,7 @@
 }
 
 #header-container{
+    background: white;
     position: sticky;
     top:0;
     display: grid;
@@ -178,7 +179,6 @@ h2 iconify-icon{
 }
 
 .panel{
-    position: relative;
     display: flex;
     width: 100%;
     height: 100%;
@@ -201,9 +201,42 @@ h2 iconify-icon{
 .project-title{
     height: 33%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid var(--theme-color);
+}
+
+.project-title h3{
+    padding: 1rem;
+}
+
+.project-links{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    margin: 0.5rem 0.5rem 0rem 0rem;
+}
+
+#preview-icon{
+    font-size: 1.6rem;
+}
+
+#repo-icon{
+    font-size: 1.6rem;
+}
+
+a:checked{
+    color: var(--theme-color);
+
+    
+}
+
+.project-links div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
 }
 
 .project-description{
