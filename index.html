@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dashboard</title>
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    </head>
+
+    <body>
+        <div id="grid-layout">
+
+            <div id="sidebar-container">
+                <h2>
+                    <iconify-icon icon="material-symbols:dashboard-outline"></iconify-icon>
+                    Project Dashboard
+                </h2>
+                <nav>
+                    <ul>
+                        <li><iconify-icon icon="tabler:home"></iconify-icon>
+                            Home
+                        </li>
+                        <li><iconify-icon icon="carbon:user-profile"></iconify-icon>
+                            Profile
+                        </li>
+                        <li><iconify-icon icon="jam:messages-alt"></iconify-icon>
+                            Messages
+                        </li>
+                        <li><iconify-icon icon="material-symbols:history"></iconify-icon>
+                            History
+                        </li>
+                        <li>
+                            <iconify-icon icon="clarity:tasks-line"></iconify-icon>
+                            Tasks
+                        </li>
+                        <li id="li-group-break">
+                            <iconify-icon icon="mdi:google-circles-communities"></iconify-icon>
+                            Communities
+                        </li>
+                        <li>
+                            <iconify-icon icon="carbon:settings"></iconify-icon>
+                            Settings
+                        </li>
+                        <li>
+                            <iconify-icon icon="fluent:person-support-16-regular"></iconify-icon>
+                            Support
+                        </li>
+                        <li>
+                            <iconify-icon icon="material-symbols:privacy-tip-outline-rounded"></iconify-icon>
+                            Privacy
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="content">
+                <div id="header-container">
+                    <div id="search-section">
+                        <div id="search-icon-container">
+                            <iconify-icon icon="tabler:search"></iconify-icon>
+                        </div>
+                        <div id="search-bar-container">
+                            <input placeholder="Search">
+                        </div>
+                    </div>
+                    <div id="user-section">
+                        <div id="notification-icon-container">
+                            <iconify-icon icon="ic:outline-notifications"></iconify-icon>
+                        </div>   
+                        <span>Custodian227</span>
+                        <div id="avatar-container"></div>
+                    </div>
+                </div>
+
+                <div id="main-content">
+                    <h2><iconify-icon icon="octicon:project-symlink-16"></iconify-icon>Projects</h2>
+                    <h2><iconify-icon icon="fluent:data-area-20-filled"></iconify-icon>Project data</h2>
+                    <div id="projects">
+                        <div class="panel-container">
+                            <div class="panel">
+                                <div class="stripe"></div>
+                                <div class="project-info">
+                                    <div class="project-title">
+                                        <h3>Odin Landing Page</h3>
+                                    </div>
+                                    <div class="project-description scrollable-content">
+                                        <span>
+                                            A standalone page as an introductory project for the curriculum. A simple layout that is built with the help of basic HTML and CSS. 
+                                        </span>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>    
+                        <div class="panel-container">
+                            <div class="panel">
+                                <div class="stripe"></div>
+                                <div class="project-info">
+                                    <div class="project-title">
+                                        <h3>Etch-A-Sketch</h3>
+                                    </div>
+                                    <div class="project-description scrollable-content">
+                                        <span>
+                                            A webpage that mimics the children's drawing board toy (Etch-A-Sketch). You can color blocks with paint on a grid that is with a custom 
+                                            defined with a custom dimension. You can also start a new drawing.
+                                        </span>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>    
+                        <div class="panel-container">
+                            <div class="panel">
+                                <div class="stripe"></div>
+                                <div class="project-info">
+                                    <div class="project-title">
+                                        <h3>Rock-Paper-Scissors</h3>
+                                    </div>
+                                    <div class="project-description scrollable-content">
+                                        <span>
+                                            Play a game of Rock-Paper-Scissors against a computer. In order to win a game, you need to earn 5 wins before the computer. There's also a score tracker
+                                            that displays the number of wins, draws and losses of the current game. 
+                                        </span>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>    
+                        <div class="panel-container">
+                            <div class="panel">
+                                <div class="stripe"></div>
+                                <div class="project-info">
+                                    <div class="project-title">
+                                        <h3>Calculator</h3>
+                                    </div>
+                                    <div class="project-description scrollable-content">
+                                        <span> 
+                                            A basic calculator app. It can perform basic arithmetic operation (+, -, *, /, mod) on 2 operands. It can aslo chain multiple operations on 2 arbitrary operands so that
+                                            there isn't a loss of progress in the calculation.
+                                        </span>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>    
+                        <div class="panel-container ">
+                            <div class="panel">
+                                <div class="stripe"></div>
+                                <div class="project-info">
+                                    <div class="project-title">
+                                        <h3>Sign-Up Form</h3>
+                                    </div>
+                                    <div class="project-description scrollable-content">
+                                        <span>
+                                            A single-page form for acquiring user data that has responsive design. It also has built-in and custom validations implemented so that it ensures the user is 
+                                            providing data in the required format.
+                                        </span>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>    
+                        <div class="panel-container">
+                            <div class="panel">
+                                <div class="stripe"></div>
+                                <div class="project-info">
+                                    <div class="project-title">
+                                        <h3>Dashboard</h3>
+                                     </div>
+                                    <div class="project-description scrollable-content">
+                                        <span>
+                                            A dashboard that stores data about personal projects. The projects are organized in small panels where you can see the title, the description and
+                                            a link that leads to the project's GitHub repo. 
+                                        </span>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="project-data">
+                        <div id="project-quantity">
+                            <div class="data-title-container">
+                                <h3>Project Progress</h3>
+                            </div>
+                            <div class="data">
+                                <div class="measure">
+                                    <span>Projects</span>
+                                </div>
+                                <div class="value">
+                                    <span>6</span>
+                                </div>
+                            </div>
+                            <div class="data">
+                                <div class="measure">
+                                    <span>Finished</span>
+                                </div>
+                                <div class="value">
+                                    <span>3</span>
+                                </div>
+                            </div>
+                            <div class="data">
+                                <div class="measure">
+                                    <span>Unfinished</span>
+                                </div>
+                                <div class="value">
+                                    <span>3</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="project-categorization">
+                            <div class="data-title-container">
+                                <h3>Project Categorization</h3>
+                            </div>
+                            <div class="data">
+                                <div class="measure">
+                                    <span>Landing Page</span>
+                                </div>
+                                <div class="value">
+                                    <span>1</span>
+                                </div>
+                            </div>
+                            <div class="data">
+                                <div class="measure">
+                                    <span>Game</span>
+                                </div>
+                                <div class="value">
+                                    <span>2</span>
+                                </div>
+                            </div>
+                            <div class="data">
+                                <div class="measure">
+                                    <span>Mathematical App</span>
+                                </div>
+                                <div class="value">
+                                    <span>1</span>
+                                </div>
+                            </div>
+                            <div class="data">
+                                <div class="measure">
+                                    <span>Form</span>
+                                </div>
+                                <div class="value">
+                                    <span>1</span>
+                                </div>
+                            </div>
+                            <div class="data">
+                                <div class="measure">
+                                    <span>Dashboard</span>
+                                </div>
+                                <div class="value">
+                                    <span>1</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
